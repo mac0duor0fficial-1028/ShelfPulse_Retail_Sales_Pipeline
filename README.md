@@ -269,3 +269,5 @@ Or use a GitHub Actions workflow with `on: schedule: - cron: "0 5 * * *"` and st
 - [ ] Connect a BI dashboard (Metabase, Power BI)
 
 ## License
+
+This project is under the (MIT LICENSING)[MIT]
