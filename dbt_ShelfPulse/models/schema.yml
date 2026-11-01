@@ -1,0 +1,12 @@
+version: 2
+models:
+  - name: stg_pos_sales
+    columns:
+      - name: sale_id
+        tests: [unique, not_null]
+      - name: quantity
+        tests: [not_null]
+  - name: fct_daily_sales
+    columns:
+      - name: revenue
+        tests: [not_null]

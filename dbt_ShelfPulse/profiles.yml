@@ -1,0 +1,18 @@
+# dbt connection profile for ShelfPulse
+# The profile name must match `profile:` in dbt_project.yml.
+# Credentials are read from environment variables (see .env.example),
+# so this file is safe to commit.
+
+dbt_ShelfPulse:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "{{ env_var('SF_ACCOUNT') }}"
+      user: "{{ env_var('SF_USER') }}"
+      password: "{{ env_var('SF_PASSWORD') }}"
+      warehouse: SHELFPULSE_WH
+      database: SHELFPULSE
+      schema: ANALYTICS
+      threads: 4
+      client_session_keep_alive: false

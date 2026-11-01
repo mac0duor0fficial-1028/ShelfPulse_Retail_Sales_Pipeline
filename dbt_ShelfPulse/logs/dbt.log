@@ -1,0 +1,715 @@
+[0m00:46:26.464303 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B21935F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B25F8A840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B2194A780>]}
+
+
+============================== 00:46:26.479286 | d0956876-6ccb-43ee-b156-97b74f26cc25 ==============================
+[0m00:46:26.479286 [info ] [MainThread]: Running with dbt=1.12.6
+[0m00:46:26.481366 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\USER\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt source freshness', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\USER\\OneDrive\\Desktop\\ShelfPulse_Retail_Sales_Pipeline\\dbt_ShelfPulse\\logs'}
+[0m00:46:26.493521 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  Could not find profile named 'dbt_shelfpulse'
+[0m00:46:26.498037 [debug] [MainThread]: Command `dbt source freshness` failed at 00:46:26.497518 after 0.72 seconds
+[0m00:46:26.500099 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B23E19FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B238E59A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B260D08F0>]}
+[0m00:46:26.502053 [debug] [MainThread]: Flushing usage events
+[0m00:46:28.009989 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:47:17.242323 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD03C2DE20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD07015730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD07015610>]}
+
+
+============================== 00:47:17.264918 | e4316f29-7840-4004-aa53-783da44c71ab ==============================
+[0m00:47:17.264918 [info ] [MainThread]: Running with dbt=1.12.6
+[0m00:47:17.269921 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\USER\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'invocation_command': 'dbt source freshness', 'log_path': 'C:\\Users\\USER\\OneDrive\\Desktop\\ShelfPulse_Retail_Sales_Pipeline\\dbt_ShelfPulse\\logs'}
+[0m00:47:17.287250 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  Could not find profile named 'dbt_ShelfPulse'
+[0m00:47:17.295765 [debug] [MainThread]: Command `dbt source freshness` failed at 00:47:17.293755 after 0.87 seconds
+[0m00:47:17.297797 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD03C2DE20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD092223F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD0534C7A0>]}
+[0m00:47:17.300796 [debug] [MainThread]: Flushing usage events
+[0m00:47:19.013096 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:47:56.672396 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292D6CADE20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292D9FB8B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292D9FB92B0>]}
+
+
+============================== 00:47:56.689950 | 93ce6192-4dc4-4cb9-b408-ed208bbd5912 ==============================
+[0m00:47:56.689950 [info ] [MainThread]: Running with dbt=1.12.6
+[0m00:47:56.691946 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\USER\\.dbt', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt source freshness', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\USER\\OneDrive\\Desktop\\ShelfPulse_Retail_Sales_Pipeline\\dbt_ShelfPulse\\logs'}
+[0m00:47:56.701960 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  Could not find profile named 'dbt_ShelfPulse'
+[0m00:47:56.705972 [debug] [MainThread]: Command `dbt source freshness` failed at 00:47:56.704972 after 0.77 seconds
+[0m00:47:56.707524 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292D9966B40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292DC2B23F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292DC2B2030>]}
+[0m00:47:56.709549 [debug] [MainThread]: Flushing usage events
+[0m00:47:59.744613 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:51:01.976684 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002452F0C6840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002452F0C7050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002452D195130>]}
+
+
+============================== 00:51:01.992251 | b2008dcb-9188-4c30-b771-64edee23c889 ==============================
+[0m00:51:01.992251 [info ] [MainThread]: Running with dbt=1.12.6
+[0m00:51:01.995243 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\USER\\OneDrive\\Desktop\\ShelfPulse_Retail_Sales_Pipeline\\dbt_ShelfPulse', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt source freshness', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'C:\\Users\\USER\\OneDrive\\Desktop\\ShelfPulse_Retail_Sales_Pipeline\\dbt_ShelfPulse\\logs'}
+[0m00:51:07.623865 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m00:51:07.625894 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m00:51:07.626892 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m00:51:09.614546 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b2008dcb-9188-4c30-b771-64edee23c889', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002452FE1D640>]}
+[0m00:51:10.048781 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b2008dcb-9188-4c30-b771-64edee23c889', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002452FCCD730>]}
+[0m00:51:10.066339 [info ] [MainThread]: Registered adapter: snowflake=1.12.4
+[0m00:51:11.738023 [debug] [MainThread]: checksum: 2f02ce927c5be032ea647aca2c15268984948c807e977afe93a2b492eeb73aa6, vars: {}, profile: dbt_ShelfPulse, target: dev, version: 1.12.6
+[0m00:51:11.743030 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m00:51:11.744006 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b2008dcb-9188-4c30-b771-64edee23c889', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002452F1123F0>]}
+[0m00:51:11.780171 [warn ] [MainThread]: [[33mWARNING[0m][PropertyMovedToConfigDeprecation]: Deprecated functionality
+Found `freshness` as a top-level property of `sources[0].tables[0]` in file
+`models\sources.yml`. The `freshness` top-level property should be moved into
+the `config` of `sources[0].tables[0]`.
+[0m00:51:11.782172 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'b2008dcb-9188-4c30-b771-64edee23c889', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024530371280>]}
+[0m00:51:20.016828 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.dbt_shelfpulse.staging
+- models.dbt_shelfpulse.marts
+[0m00:51:20.028356 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b2008dcb-9188-4c30-b771-64edee23c889', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024531B020C0>]}
+[0m00:51:20.531790 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_ShelfPulse\target\manifest.json
+[0m00:51:20.541794 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_ShelfPulse\target\semantic_manifest.json
+[0m00:51:21.246902 [debug] [MainThread]: Wrote artifact OsiDocument to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_ShelfPulse\target\osi_document.json
+[0m00:51:21.554845 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b2008dcb-9188-4c30-b771-64edee23c889', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024531C60E60>]}
+[0m00:51:21.556838 [info ] [MainThread]: Found 2 models, 4 data tests, 1 source, 563 macros
+[0m00:51:21.558850 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b2008dcb-9188-4c30-b771-64edee23c889', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024531C7E300>]}
+[0m00:51:21.566697 [info ] [MainThread]: 
+[0m00:51:21.570381 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m00:51:21.573391 [info ] [MainThread]: 
+[0m00:51:21.578964 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m00:51:21.616525 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SHELFPULSE_ANALYTICS'
+[0m00:51:21.754427 [debug] [ThreadPool]: Using snowflake connection "list_SHELFPULSE_ANALYTICS"
+[0m00:51:21.756425 [debug] [ThreadPool]: On list_SHELFPULSE_ANALYTICS: show objects in SHELFPULSE.ANALYTICS
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "connection_name": "list_SHELFPULSE_ANALYTICS"} */;
+[0m00:51:21.757421 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:51:49.377188 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 27.619 seconds
+[0m00:51:49.395246 [debug] [ThreadPool]: Using snowflake connection "list_SHELFPULSE_ANALYTICS"
+[0m00:51:49.396244 [debug] [ThreadPool]: On list_SHELFPULSE_ANALYTICS: show user functions in SHELFPULSE.ANALYTICS
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "connection_name": "list_SHELFPULSE_ANALYTICS"} */
+[0m00:51:49.581764 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.183 seconds
+[0m00:51:49.588764 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b2008dcb-9188-4c30-b771-64edee23c889', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002452FF8FC20>]}
+[0m00:51:49.590759 [info ] [MainThread]: Pulling freshness from warehouse metadata tables for 0 sources
+[0m00:51:49.677869 [debug] [Thread-2 (]: Began running node source.dbt_ShelfPulse.raw.pos_sales
+[0m00:51:49.679858 [info ] [Thread-2 (]: 1 of 1 START freshness of raw.pos_sales ........................................ [RUN]
+[0m00:51:49.686869 [debug] [Thread-2 (]: Acquiring new snowflake connection 'source.dbt_ShelfPulse.raw.pos_sales'
+[0m00:51:49.690840 [debug] [Thread-2 (]: Began compiling node source.dbt_ShelfPulse.raw.pos_sales
+[0m00:51:49.693920 [debug] [Thread-2 (]: Began executing node source.dbt_ShelfPulse.raw.pos_sales
+[0m00:51:49.746199 [debug] [Thread-2 (]: Using snowflake connection "source.dbt_ShelfPulse.raw.pos_sales"
+[0m00:51:49.752236 [debug] [Thread-2 (]: On source.dbt_ShelfPulse.raw.pos_sales: select
+      max(_loaded_at) as max_loaded_at,
+      convert_timezone('UTC', current_timestamp()) as snapshotted_at
+    from SHELFPULSE.RAW.pos_sales
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "node_id": "source.dbt_ShelfPulse.raw.pos_sales"} */
+[0m00:51:49.754217 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m00:51:55.320631 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 5.567 seconds
+[0m00:51:55.344702 [info ] [Thread-2 (]: 1 of 1 PASS freshness of raw.pos_sales ......................................... [[32mPASS[0m in 5.66s]
+[0m00:51:55.349253 [debug] [Thread-2 (]: Finished running node source.dbt_ShelfPulse.raw.pos_sales
+[0m00:51:55.358254 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m00:51:55.361272 [debug] [MainThread]: Connection 'list_SHELFPULSE_ANALYTICS' was left open.
+[0m00:51:55.361813 [debug] [MainThread]: On list_SHELFPULSE_ANALYTICS: Close
+[0m00:51:56.655574 [debug] [MainThread]: Connection 'source.dbt_ShelfPulse.raw.pos_sales' was left open.
+[0m00:51:56.656554 [debug] [MainThread]: On source.dbt_ShelfPulse.raw.pos_sales: Close
+[0m00:51:56.900557 [info ] [MainThread]: 
+[0m00:51:56.903563 [info ] [MainThread]: Finished running 1 source in 0 hours 0 minutes and 35.33 seconds (35.33s).
+[0m00:51:57.094849 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_ShelfPulse\target\manifest.json
+[0m00:51:57.106832 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_ShelfPulse\target\semantic_manifest.json
+[0m00:51:57.116391 [debug] [MainThread]: Wrote artifact OsiDocument to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_ShelfPulse\target\osi_document.json
+[0m00:51:57.145948 [debug] [MainThread]: Wrote artifact FreshnessResult to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_ShelfPulse\target\sources.json
+[0m00:51:57.146966 [info ] [MainThread]: Done.
+[0m00:51:57.149972 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- PropertyMovedToConfigDeprecation: 2 occurrences
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m00:51:57.154153 [debug] [MainThread]: Command `dbt source freshness` succeeded at 00:51:57.154153 after 55.99 seconds
+[0m00:51:57.156151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002452F0C6840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024531D7DB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002452F526D20>]}
+[0m00:51:57.157151 [debug] [MainThread]: Flushing usage events
+[0m00:51:59.376093 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:52:38.284512 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002022D35F410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002022F9D8980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002022D286930>]}
+
+
+============================== 00:52:38.296536 | a6ed6bc8-3c89-4e20-9ceb-f40fd4dc5c36 ==============================
+[0m00:52:38.296536 [info ] [MainThread]: Running with dbt=1.12.6
+[0m00:52:38.298530 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\USER\\OneDrive\\Desktop\\ShelfPulse_Retail_Sales_Pipeline\\dbt_ShelfPulse', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt build', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\USER\\OneDrive\\Desktop\\ShelfPulse_Retail_Sales_Pipeline\\dbt_ShelfPulse\\logs'}
+[0m00:52:40.256881 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m00:52:40.259893 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m00:52:40.264137 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m00:52:41.644682 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a6ed6bc8-3c89-4e20-9ceb-f40fd4dc5c36', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020232E21B50>]}
+[0m00:52:41.956866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a6ed6bc8-3c89-4e20-9ceb-f40fd4dc5c36', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020231FAECC0>]}
+[0m00:52:41.970907 [info ] [MainThread]: Registered adapter: snowflake=1.12.4
+[0m00:52:43.799718 [debug] [MainThread]: checksum: 2f02ce927c5be032ea647aca2c15268984948c807e977afe93a2b492eeb73aa6, vars: {}, profile: dbt_ShelfPulse, target: dev, version: 1.12.6
+[0m00:52:45.202116 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m00:52:45.204124 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m00:52:45.206119 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m00:52:45.228201 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.dbt_shelfpulse.staging
+- models.dbt_shelfpulse.marts
+[0m00:52:45.241219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a6ed6bc8-3c89-4e20-9ceb-f40fd4dc5c36', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002022D55FBF0>]}
+[0m00:52:45.957573 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_ShelfPulse\target\manifest.json
+[0m00:52:45.967157 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_ShelfPulse\target\semantic_manifest.json
+[0m00:52:46.476344 [debug] [MainThread]: Wrote artifact OsiDocument to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_ShelfPulse\target\osi_document.json
+[0m00:52:47.641915 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a6ed6bc8-3c89-4e20-9ceb-f40fd4dc5c36', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202343C3500>]}
+[0m00:52:47.644910 [info ] [MainThread]: Found 2 models, 4 data tests, 1 source, 563 macros
+[0m00:52:47.679018 [info ] [MainThread]: 
+[0m00:52:47.687018 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m00:52:47.692016 [info ] [MainThread]: 
+[0m00:52:47.701556 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m00:52:47.758822 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SHELFPULSE'
+[0m00:52:47.982989 [debug] [ThreadPool]: Using snowflake connection "list_SHELFPULSE"
+[0m00:52:47.984993 [debug] [ThreadPool]: On list_SHELFPULSE: show terse schemas in database SHELFPULSE
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "connection_name": "list_SHELFPULSE"} */
+[0m00:52:47.986983 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:52:54.857028 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 6.870 seconds
+[0m00:52:54.878613 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SHELFPULSE_ANALYTICS'
+[0m00:52:54.954242 [debug] [ThreadPool]: Using snowflake connection "list_SHELFPULSE_ANALYTICS"
+[0m00:52:54.957237 [debug] [ThreadPool]: On list_SHELFPULSE_ANALYTICS: show objects in SHELFPULSE.ANALYTICS
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "connection_name": "list_SHELFPULSE_ANALYTICS"} */;
+[0m00:52:54.959241 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:52:57.475805 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 2.517 seconds
+[0m00:52:57.505113 [debug] [ThreadPool]: Using snowflake connection "list_SHELFPULSE_ANALYTICS"
+[0m00:52:57.508111 [debug] [ThreadPool]: On list_SHELFPULSE_ANALYTICS: show user functions in SHELFPULSE.ANALYTICS
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "connection_name": "list_SHELFPULSE_ANALYTICS"} */
+[0m00:52:57.676011 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.166 seconds
+[0m00:52:57.688554 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a6ed6bc8-3c89-4e20-9ceb-f40fd4dc5c36', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020232EFBE30>]}
+[0m00:52:57.751050 [debug] [Thread-2 (]: Began running node model.dbt_ShelfPulse.stg_pos_sales
+[0m00:52:57.754074 [info ] [Thread-2 (]: 1 of 6 START sql view model ANALYTICS.stg_pos_sales ............................ [RUN]
+[0m00:52:57.760065 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.dbt_ShelfPulse.stg_pos_sales'
+[0m00:52:57.767595 [debug] [Thread-2 (]: Began compiling node model.dbt_ShelfPulse.stg_pos_sales
+[0m00:52:57.808194 [debug] [Thread-2 (]: Writing injected SQL for node "model.dbt_ShelfPulse.stg_pos_sales"
+[0m00:52:57.834300 [debug] [Thread-2 (]: Began executing node model.dbt_ShelfPulse.stg_pos_sales
+[0m00:52:58.080458 [debug] [Thread-2 (]: Writing runtime sql for node "model.dbt_ShelfPulse.stg_pos_sales"
+[0m00:52:58.099366 [debug] [Thread-2 (]: Using snowflake connection "model.dbt_ShelfPulse.stg_pos_sales"
+[0m00:52:58.101367 [debug] [Thread-2 (]: On model.dbt_ShelfPulse.stg_pos_sales: create or replace   view SHELFPULSE.ANALYTICS.stg_pos_sales
+  
+  
+  
+  
+  as (
+    with src as (
+    select * from SHELFPULSE.RAW.pos_sales
+),
+typed as (
+    select
+        sale_id,
+        store_id,
+        product_id,
+        lower(trim(category))              as category,
+        try_to_number(quantity)            as quantity,
+        try_to_decimal(unit_price, 10, 2)  as unit_price,
+        try_to_timestamp(sold_at)          as sold_at,
+        _source_file,
+        _loaded_at
+    from src
+)
+select * from typed
+qualify row_number() over (partition by sale_id order by _loaded_at desc) = 1
+  )
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "node_id": "model.dbt_ShelfPulse.stg_pos_sales"} */;
+[0m00:52:58.103385 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m00:52:59.827167 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 1.724 seconds
+[0m00:52:59.948986 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a6ed6bc8-3c89-4e20-9ceb-f40fd4dc5c36', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020234441D90>]}
+[0m00:52:59.951981 [info ] [Thread-2 (]: 1 of 6 OK created sql view model ANALYTICS.stg_pos_sales ....................... [[32mSUCCESS 1[0m in 2.17s]
+[0m00:52:59.954988 [debug] [Thread-2 (]: Finished running node model.dbt_ShelfPulse.stg_pos_sales
+[0m00:52:59.957986 [debug] [Thread-4 (]: Began running node test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813
+[0m00:52:59.959979 [debug] [Thread-5 (]: Began running node test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558
+[0m00:52:59.962529 [debug] [Thread-3 (]: Began running node test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c
+[0m00:52:59.964522 [info ] [Thread-4 (]: 2 of 6 START test not_null_stg_pos_sales_quantity .............................. [RUN]
+[0m00:52:59.967524 [info ] [Thread-5 (]: 3 of 6 START test not_null_stg_pos_sales_sale_id ............................... [RUN]
+[0m00:52:59.976530 [debug] [Thread-4 (]: Acquiring new snowflake connection 'test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813'
+[0m00:52:59.980543 [debug] [Thread-5 (]: Acquiring new snowflake connection 'test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558'
+[0m00:52:59.971525 [info ] [Thread-3 (]: 4 of 6 START test unique_stg_pos_sales_sale_id ................................. [RUN]
+[0m00:52:59.984534 [debug] [Thread-4 (]: Began compiling node test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813
+[0m00:52:59.987045 [debug] [Thread-5 (]: Began compiling node test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558
+[0m00:52:59.992072 [debug] [Thread-3 (]: Acquiring new snowflake connection 'test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c'
+[0m00:53:00.083270 [debug] [Thread-4 (]: Writing injected SQL for node "test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813"
+[0m00:53:00.088287 [debug] [Thread-5 (]: Writing injected SQL for node "test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558"
+[0m00:53:00.091834 [debug] [Thread-3 (]: Began compiling node test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c
+[0m00:53:00.156554 [debug] [Thread-3 (]: Writing injected SQL for node "test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c"
+[0m00:53:00.161544 [debug] [Thread-4 (]: Began executing node test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813
+[0m00:53:00.208680 [debug] [Thread-5 (]: Began executing node test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558
+[0m00:53:00.263310 [debug] [Thread-4 (]: Writing runtime sql for node "test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813"
+[0m00:53:00.270317 [debug] [Thread-5 (]: Writing runtime sql for node "test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558"
+[0m00:53:00.274321 [debug] [Thread-3 (]: Began executing node test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c
+[0m00:53:00.286868 [debug] [Thread-3 (]: Writing runtime sql for node "test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c"
+[0m00:53:00.292866 [debug] [Thread-4 (]: Using snowflake connection "test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813"
+[0m00:53:00.295874 [debug] [Thread-4 (]: On test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select quantity
+from SHELFPULSE.ANALYTICS.stg_pos_sales
+where quantity is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "node_id": "test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813"} */
+[0m00:53:00.298905 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m00:53:00.312454 [debug] [Thread-5 (]: Using snowflake connection "test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558"
+[0m00:53:00.315455 [debug] [Thread-5 (]: On test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select sale_id
+from SHELFPULSE.ANALYTICS.stg_pos_sales
+where sale_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "node_id": "test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558"} */
+[0m00:53:00.317459 [debug] [Thread-5 (]: Opening a new connection, currently in state init
+[0m00:53:00.322024 [debug] [Thread-3 (]: Using snowflake connection "test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c"
+[0m00:53:00.324048 [debug] [Thread-3 (]: On test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    sale_id as unique_field,
+    count(*) as n_records
+
+from SHELFPULSE.ANALYTICS.stg_pos_sales
+where sale_id is not null
+group by sale_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "node_id": "test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c"} */
+[0m00:53:00.326034 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m00:53:03.395293 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 3.078 seconds
+[0m00:53:03.412844 [info ] [Thread-5 (]: 3 of 6 PASS not_null_stg_pos_sales_sale_id ..................................... [[32mPASS[0m in 3.43s]
+[0m00:53:03.416846 [debug] [Thread-5 (]: Finished running node test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558
+[0m00:53:03.465447 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 3.139 seconds
+[0m00:53:03.475072 [info ] [Thread-3 (]: 4 of 6 PASS unique_stg_pos_sales_sale_id ....................................... [[32mPASS[0m in 3.48s]
+[0m00:53:03.479072 [debug] [Thread-3 (]: Finished running node test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c
+[0m00:53:03.514877 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 3.217 seconds
+[0m00:53:03.526882 [info ] [Thread-4 (]: 2 of 6 PASS not_null_stg_pos_sales_quantity .................................... [[32mPASS[0m in 3.55s]
+[0m00:53:03.531437 [debug] [Thread-4 (]: Finished running node test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813
+[0m00:53:03.535431 [debug] [Thread-2 (]: Began running node model.dbt_ShelfPulse.fct_daily_sales
+[0m00:53:03.537439 [info ] [Thread-2 (]: 5 of 6 START sql view model ANALYTICS.fct_daily_sales .......................... [RUN]
+[0m00:53:03.541435 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.dbt_ShelfPulse.stg_pos_sales, now model.dbt_ShelfPulse.fct_daily_sales)
+[0m00:53:03.543451 [debug] [Thread-2 (]: Began compiling node model.dbt_ShelfPulse.fct_daily_sales
+[0m00:53:03.553462 [debug] [Thread-2 (]: Writing injected SQL for node "model.dbt_ShelfPulse.fct_daily_sales"
+[0m00:53:03.559463 [debug] [Thread-2 (]: Began executing node model.dbt_ShelfPulse.fct_daily_sales
+[0m00:53:03.573998 [debug] [Thread-2 (]: Writing runtime sql for node "model.dbt_ShelfPulse.fct_daily_sales"
+[0m00:53:03.581549 [debug] [Thread-2 (]: Using snowflake connection "model.dbt_ShelfPulse.fct_daily_sales"
+[0m00:53:03.584551 [debug] [Thread-2 (]: On model.dbt_ShelfPulse.fct_daily_sales: create or replace   view SHELFPULSE.ANALYTICS.fct_daily_sales
+  
+  
+  
+  
+  as (
+    select
+    date_trunc('day', sold_at)       as sales_date,
+    store_id,
+    category,
+    count(distinct sale_id)          as transactions,
+    sum(quantity)                    as units_sold,
+    sum(quantity * unit_price)       as revenue
+from SHELFPULSE.ANALYTICS.stg_pos_sales
+where sold_at is not null
+group by 1, 2, 3
+  )
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "node_id": "model.dbt_ShelfPulse.fct_daily_sales"} */;
+[0m00:53:04.434386 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.848 seconds
+[0m00:53:04.440434 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a6ed6bc8-3c89-4e20-9ceb-f40fd4dc5c36', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002023449A000>]}
+[0m00:53:04.441432 [info ] [Thread-2 (]: 5 of 6 OK created sql view model ANALYTICS.fct_daily_sales ..................... [[32mSUCCESS 1[0m in 0.90s]
+[0m00:53:04.444417 [debug] [Thread-2 (]: Finished running node model.dbt_ShelfPulse.fct_daily_sales
+[0m00:53:04.446447 [debug] [Thread-3 (]: Began running node test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152
+[0m00:53:04.449443 [info ] [Thread-3 (]: 6 of 6 START test not_null_fct_daily_sales_revenue ............................. [RUN]
+[0m00:53:04.452445 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c, now test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152)
+[0m00:53:04.454466 [debug] [Thread-3 (]: Began compiling node test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152
+[0m00:53:04.478782 [debug] [Thread-3 (]: Writing injected SQL for node "test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152"
+[0m00:53:04.484290 [debug] [Thread-3 (]: Began executing node test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152
+[0m00:53:04.491296 [debug] [Thread-3 (]: Writing runtime sql for node "test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152"
+[0m00:53:04.498335 [debug] [Thread-3 (]: Using snowflake connection "test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152"
+[0m00:53:04.501336 [debug] [Thread-3 (]: On test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select revenue
+from SHELFPULSE.ANALYTICS.fct_daily_sales
+where revenue is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "node_id": "test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152"} */
+[0m00:53:04.772327 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.270 seconds
+[0m00:53:04.782837 [info ] [Thread-3 (]: 6 of 6 PASS not_null_fct_daily_sales_revenue ................................... [[32mPASS[0m in 0.33s]
+[0m00:53:04.785835 [debug] [Thread-3 (]: Finished running node test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152
+[0m00:53:04.789847 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m00:53:04.790850 [debug] [MainThread]: Connection 'list_SHELFPULSE' was left open.
+[0m00:53:04.791854 [debug] [MainThread]: On list_SHELFPULSE: Close
+[0m00:53:05.057206 [debug] [MainThread]: Connection 'list_SHELFPULSE_ANALYTICS' was left open.
+[0m00:53:05.058208 [debug] [MainThread]: On list_SHELFPULSE_ANALYTICS: Close
+[0m00:53:05.675928 [debug] [MainThread]: Connection 'model.dbt_ShelfPulse.fct_daily_sales' was left open.
+[0m00:53:05.676930 [debug] [MainThread]: On model.dbt_ShelfPulse.fct_daily_sales: Close
+[0m00:53:05.921704 [debug] [MainThread]: Connection 'test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813' was left open.
+[0m00:53:05.923694 [debug] [MainThread]: On test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813: Close
+[0m00:53:06.175474 [debug] [MainThread]: Connection 'test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558' was left open.
+[0m00:53:06.177441 [debug] [MainThread]: On test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558: Close
+[0m00:53:06.437474 [debug] [MainThread]: Connection 'test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152' was left open.
+[0m00:53:06.439474 [debug] [MainThread]: On test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152: Close
+[0m00:53:06.704807 [info ] [MainThread]: 
+[0m00:53:06.707626 [info ] [MainThread]: Finished running 4 data tests, 2 view models in 0 hours 0 minutes and 19.00 seconds (19.00s).
+[0m00:53:06.713352 [debug] [MainThread]: Command end result
+[0m00:53:06.849923 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_ShelfPulse\target\manifest.json
+[0m00:53:06.859919 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_ShelfPulse\target\semantic_manifest.json
+[0m00:53:06.871460 [debug] [MainThread]: Wrote artifact OsiDocument to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_ShelfPulse\target\osi_document.json
+[0m00:53:06.903076 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_ShelfPulse\target\run_results.json
+[0m00:53:06.904093 [info ] [MainThread]: 
+[0m00:53:06.907070 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m00:53:06.909071 [info ] [MainThread]: 
+[0m00:53:06.911615 [info ] [MainThread]: Done. PASS=6 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=6
+[0m00:53:06.916662 [debug] [MainThread]: Command `dbt build` succeeded at 00:53:06.916662 after 29.36 seconds
+[0m00:53:06.918651 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002022F73E120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002022F73CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002022F73CB60>]}
+[0m00:53:06.919651 [debug] [MainThread]: Flushing usage events
+[0m00:53:11.933115 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:04:27.853278 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D391AE5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D393BF380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D396EA4B0>]}
+
+
+============================== 01:04:27.864858 | 47dfe513-f8a3-4c20-b370-94a1d98ec38d ==============================
+[0m01:04:27.864858 [info ] [MainThread]: Running with dbt=1.12.6
+[0m01:04:27.867266 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\USER\\OneDrive\\Desktop\\ShelfPulse_Retail_Sales_Pipeline\\dbt_shelfpulse', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt build', 'log_path': 'C:\\Users\\USER\\OneDrive\\Desktop\\ShelfPulse_Retail_Sales_Pipeline\\dbt_shelfpulse\\logs'}
+[0m01:04:29.831565 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m01:04:29.832565 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m01:04:29.833565 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m01:04:31.011596 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '47dfe513-f8a3-4c20-b370-94a1d98ec38d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D36F20A40>]}
+[0m01:04:31.250511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '47dfe513-f8a3-4c20-b370-94a1d98ec38d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D38BB2C30>]}
+[0m01:04:31.254508 [info ] [MainThread]: Registered adapter: snowflake=1.12.4
+[0m01:04:32.766093 [debug] [MainThread]: checksum: 2f02ce927c5be032ea647aca2c15268984948c807e977afe93a2b492eeb73aa6, vars: {}, profile: dbt_ShelfPulse, target: dev, version: 1.12.6
+[0m01:04:33.509854 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m01:04:33.512404 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m01:04:33.513424 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m01:04:33.535950 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.dbt_shelfpulse.marts
+- models.dbt_shelfpulse.staging
+[0m01:04:33.556624 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '47dfe513-f8a3-4c20-b370-94a1d98ec38d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D3C974350>]}
+[0m01:04:34.215917 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_shelfpulse\target\manifest.json
+[0m01:04:34.227888 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_shelfpulse\target\semantic_manifest.json
+[0m01:04:34.434429 [debug] [MainThread]: Wrote artifact OsiDocument to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_shelfpulse\target\osi_document.json
+[0m01:04:34.682588 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '47dfe513-f8a3-4c20-b370-94a1d98ec38d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D3CCBF7A0>]}
+[0m01:04:34.685099 [info ] [MainThread]: Found 2 models, 4 data tests, 1 source, 563 macros
+[0m01:04:34.693714 [info ] [MainThread]: 
+[0m01:04:34.695718 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m01:04:34.698742 [info ] [MainThread]: 
+[0m01:04:34.701729 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m01:04:34.730456 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SHELFPULSE'
+[0m01:04:34.786732 [debug] [ThreadPool]: Using snowflake connection "list_SHELFPULSE"
+[0m01:04:34.788735 [debug] [ThreadPool]: On list_SHELFPULSE: show terse schemas in database SHELFPULSE
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "connection_name": "list_SHELFPULSE"} */
+[0m01:04:34.789731 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m01:04:39.450818 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 4.660 seconds
+[0m01:04:39.457803 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SHELFPULSE_ANALYTICS'
+[0m01:04:39.493609 [debug] [ThreadPool]: Using snowflake connection "list_SHELFPULSE_ANALYTICS"
+[0m01:04:39.494636 [debug] [ThreadPool]: On list_SHELFPULSE_ANALYTICS: show objects in SHELFPULSE.ANALYTICS
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "connection_name": "list_SHELFPULSE_ANALYTICS"} */;
+[0m01:04:39.495640 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m01:04:41.695397 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 2.200 seconds
+[0m01:04:41.719483 [debug] [ThreadPool]: Using snowflake connection "list_SHELFPULSE_ANALYTICS"
+[0m01:04:41.721484 [debug] [ThreadPool]: On list_SHELFPULSE_ANALYTICS: show user functions in SHELFPULSE.ANALYTICS
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "connection_name": "list_SHELFPULSE_ANALYTICS"} */
+[0m01:04:42.284812 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.562 seconds
+[0m01:04:42.292863 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '47dfe513-f8a3-4c20-b370-94a1d98ec38d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D3C44CCB0>]}
+[0m01:04:42.311903 [debug] [Thread-2 (]: Began running node model.dbt_ShelfPulse.stg_pos_sales
+[0m01:04:42.314925 [info ] [Thread-2 (]: 1 of 6 START sql view model ANALYTICS.stg_pos_sales ............................ [RUN]
+[0m01:04:42.317934 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.dbt_ShelfPulse.stg_pos_sales'
+[0m01:04:42.319951 [debug] [Thread-2 (]: Began compiling node model.dbt_ShelfPulse.stg_pos_sales
+[0m01:04:42.358553 [debug] [Thread-2 (]: Writing injected SQL for node "model.dbt_ShelfPulse.stg_pos_sales"
+[0m01:04:42.366100 [debug] [Thread-2 (]: Began executing node model.dbt_ShelfPulse.stg_pos_sales
+[0m01:04:42.473525 [debug] [Thread-2 (]: Writing runtime sql for node "model.dbt_ShelfPulse.stg_pos_sales"
+[0m01:04:42.478054 [debug] [Thread-2 (]: Using snowflake connection "model.dbt_ShelfPulse.stg_pos_sales"
+[0m01:04:42.480075 [debug] [Thread-2 (]: On model.dbt_ShelfPulse.stg_pos_sales: create or replace   view SHELFPULSE.ANALYTICS.stg_pos_sales
+  
+  
+  
+  
+  as (
+    with src as (
+    select * from SHELFPULSE.RAW.pos_sales
+),
+typed as (
+    select
+        sale_id,
+        store_id,
+        product_id,
+        lower(trim(category))              as category,
+        try_to_number(quantity)            as quantity,
+        try_to_decimal(unit_price, 10, 2)  as unit_price,
+        try_to_timestamp(sold_at)          as sold_at,
+        _source_file,
+        _loaded_at
+    from src
+)
+select * from typed
+qualify row_number() over (partition by sale_id order by _loaded_at desc) = 1
+  )
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "node_id": "model.dbt_ShelfPulse.stg_pos_sales"} */;
+[0m01:04:42.480075 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m01:04:43.390626 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.910 seconds
+[0m01:04:43.486814 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '47dfe513-f8a3-4c20-b370-94a1d98ec38d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D3DFB5C40>]}
+[0m01:04:43.488798 [info ] [Thread-2 (]: 1 of 6 OK created sql view model ANALYTICS.stg_pos_sales ....................... [[32mSUCCESS 1[0m in 1.16s]
+[0m01:04:43.491807 [debug] [Thread-2 (]: Finished running node model.dbt_ShelfPulse.stg_pos_sales
+[0m01:04:43.494793 [debug] [Thread-4 (]: Began running node test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813
+[0m01:04:43.496816 [debug] [Thread-5 (]: Began running node test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558
+[0m01:04:43.497816 [debug] [Thread-3 (]: Began running node test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c
+[0m01:04:43.498822 [info ] [Thread-4 (]: 2 of 6 START test not_null_stg_pos_sales_quantity .............................. [RUN]
+[0m01:04:43.499815 [info ] [Thread-5 (]: 3 of 6 START test not_null_stg_pos_sales_sale_id ............................... [RUN]
+[0m01:04:43.505823 [debug] [Thread-4 (]: Acquiring new snowflake connection 'test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813'
+[0m01:04:43.508826 [debug] [Thread-5 (]: Acquiring new snowflake connection 'test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558'
+[0m01:04:43.502824 [info ] [Thread-3 (]: 4 of 6 START test unique_stg_pos_sales_sale_id ................................. [RUN]
+[0m01:04:43.511337 [debug] [Thread-4 (]: Began compiling node test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813
+[0m01:04:43.513352 [debug] [Thread-5 (]: Began compiling node test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558
+[0m01:04:43.516354 [debug] [Thread-3 (]: Acquiring new snowflake connection 'test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c'
+[0m01:04:43.596154 [debug] [Thread-5 (]: Writing injected SQL for node "test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558"
+[0m01:04:43.601323 [debug] [Thread-4 (]: Writing injected SQL for node "test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813"
+[0m01:04:43.603190 [debug] [Thread-3 (]: Began compiling node test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c
+[0m01:04:43.627063 [debug] [Thread-3 (]: Writing injected SQL for node "test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c"
+[0m01:04:43.629053 [debug] [Thread-4 (]: Began executing node test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813
+[0m01:04:43.646040 [debug] [Thread-5 (]: Began executing node test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558
+[0m01:04:43.749271 [debug] [Thread-5 (]: Writing runtime sql for node "test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558"
+[0m01:04:43.751261 [debug] [Thread-3 (]: Began executing node test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c
+[0m01:04:43.757995 [debug] [Thread-4 (]: Writing runtime sql for node "test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813"
+[0m01:04:43.766544 [debug] [Thread-3 (]: Writing runtime sql for node "test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c"
+[0m01:04:43.775940 [debug] [Thread-5 (]: Using snowflake connection "test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558"
+[0m01:04:43.780470 [debug] [Thread-5 (]: On test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select sale_id
+from SHELFPULSE.ANALYTICS.stg_pos_sales
+where sale_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "node_id": "test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558"} */
+[0m01:04:43.783490 [debug] [Thread-4 (]: Using snowflake connection "test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813"
+[0m01:04:43.785497 [debug] [Thread-5 (]: Opening a new connection, currently in state init
+[0m01:04:43.789490 [debug] [Thread-3 (]: Using snowflake connection "test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c"
+[0m01:04:43.791505 [debug] [Thread-4 (]: On test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select quantity
+from SHELFPULSE.ANALYTICS.stg_pos_sales
+where quantity is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "node_id": "test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813"} */
+[0m01:04:43.794490 [debug] [Thread-3 (]: On test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    sale_id as unique_field,
+    count(*) as n_records
+
+from SHELFPULSE.ANALYTICS.stg_pos_sales
+where sale_id is not null
+group by sale_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "node_id": "test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c"} */
+[0m01:04:43.797544 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m01:04:43.799532 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m01:04:46.704796 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 2.908 seconds
+[0m01:04:46.723525 [info ] [Thread-4 (]: 2 of 6 PASS not_null_stg_pos_sales_quantity .................................... [[32mPASS[0m in 3.22s]
+[0m01:04:46.726493 [debug] [Thread-4 (]: Finished running node test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813
+[0m01:04:47.206458 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 3.421 seconds
+[0m01:04:47.214018 [info ] [Thread-5 (]: 3 of 6 PASS not_null_stg_pos_sales_sale_id ..................................... [[32mPASS[0m in 3.71s]
+[0m01:04:47.218008 [debug] [Thread-5 (]: Finished running node test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558
+[0m01:04:47.260999 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 3.461 seconds
+[0m01:04:47.268231 [info ] [Thread-3 (]: 4 of 6 PASS unique_stg_pos_sales_sale_id ....................................... [[32mPASS[0m in 3.75s]
+[0m01:04:47.273226 [debug] [Thread-3 (]: Finished running node test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c
+[0m01:04:47.277231 [debug] [Thread-2 (]: Began running node model.dbt_ShelfPulse.fct_daily_sales
+[0m01:04:47.280229 [info ] [Thread-2 (]: 5 of 6 START sql view model ANALYTICS.fct_daily_sales .......................... [RUN]
+[0m01:04:47.283843 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.dbt_ShelfPulse.stg_pos_sales, now model.dbt_ShelfPulse.fct_daily_sales)
+[0m01:04:47.286868 [debug] [Thread-2 (]: Began compiling node model.dbt_ShelfPulse.fct_daily_sales
+[0m01:04:47.296882 [debug] [Thread-2 (]: Writing injected SQL for node "model.dbt_ShelfPulse.fct_daily_sales"
+[0m01:04:47.302872 [debug] [Thread-2 (]: Began executing node model.dbt_ShelfPulse.fct_daily_sales
+[0m01:04:47.316422 [debug] [Thread-2 (]: Writing runtime sql for node "model.dbt_ShelfPulse.fct_daily_sales"
+[0m01:04:47.325201 [debug] [Thread-2 (]: Using snowflake connection "model.dbt_ShelfPulse.fct_daily_sales"
+[0m01:04:47.327204 [debug] [Thread-2 (]: On model.dbt_ShelfPulse.fct_daily_sales: create or replace   view SHELFPULSE.ANALYTICS.fct_daily_sales
+  
+  
+  
+  
+  as (
+    select
+    date_trunc('day', sold_at)       as sales_date,
+    store_id,
+    category,
+    count(distinct sale_id)          as transactions,
+    sum(quantity)                    as units_sold,
+    sum(quantity * unit_price)       as revenue
+from SHELFPULSE.ANALYTICS.stg_pos_sales
+where sold_at is not null
+group by 1, 2, 3
+  )
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "node_id": "model.dbt_ShelfPulse.fct_daily_sales"} */;
+[0m01:04:47.693911 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.365 seconds
+[0m01:04:47.704911 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '47dfe513-f8a3-4c20-b370-94a1d98ec38d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D3DFD1D90>]}
+[0m01:04:47.706910 [info ] [Thread-2 (]: 5 of 6 OK created sql view model ANALYTICS.fct_daily_sales ..................... [[32mSUCCESS 1[0m in 0.42s]
+[0m01:04:47.710991 [debug] [Thread-2 (]: Finished running node model.dbt_ShelfPulse.fct_daily_sales
+[0m01:04:47.714021 [debug] [Thread-5 (]: Began running node test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152
+[0m01:04:47.715019 [info ] [Thread-5 (]: 6 of 6 START test not_null_fct_daily_sales_revenue ............................. [RUN]
+[0m01:04:47.718542 [debug] [Thread-5 (]: Re-using an available connection from the pool (formerly test.dbt_ShelfPulse.not_null_stg_pos_sales_sale_id.4206467558, now test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152)
+[0m01:04:47.722571 [debug] [Thread-5 (]: Began compiling node test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152
+[0m01:04:47.774696 [debug] [Thread-5 (]: Writing injected SQL for node "test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152"
+[0m01:04:47.778291 [debug] [Thread-5 (]: Began executing node test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152
+[0m01:04:47.784780 [debug] [Thread-5 (]: Writing runtime sql for node "test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152"
+[0m01:04:47.792808 [debug] [Thread-5 (]: Using snowflake connection "test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152"
+[0m01:04:47.794799 [debug] [Thread-5 (]: On test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select revenue
+from SHELFPULSE.ANALYTICS.fct_daily_sales
+where revenue is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "dbt_ShelfPulse", "target_name": "dev", "node_id": "test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152"} */
+[0m01:04:48.044218 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 0.248 seconds
+[0m01:04:48.050216 [info ] [Thread-5 (]: 6 of 6 PASS not_null_fct_daily_sales_revenue ................................... [[32mPASS[0m in 0.33s]
+[0m01:04:48.052225 [debug] [Thread-5 (]: Finished running node test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152
+[0m01:04:48.057224 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m01:04:48.058264 [debug] [MainThread]: Connection 'list_SHELFPULSE' was left open.
+[0m01:04:48.059254 [debug] [MainThread]: On list_SHELFPULSE: Close
+[0m01:04:48.297103 [debug] [MainThread]: Connection 'list_SHELFPULSE_ANALYTICS' was left open.
+[0m01:04:48.298102 [debug] [MainThread]: On list_SHELFPULSE_ANALYTICS: Close
+[0m01:04:48.778495 [debug] [MainThread]: Connection 'model.dbt_ShelfPulse.fct_daily_sales' was left open.
+[0m01:04:48.779499 [debug] [MainThread]: On model.dbt_ShelfPulse.fct_daily_sales: Close
+[0m01:04:49.025629 [debug] [MainThread]: Connection 'test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813' was left open.
+[0m01:04:49.026642 [debug] [MainThread]: On test.dbt_ShelfPulse.not_null_stg_pos_sales_quantity.af3bff0813: Close
+[0m01:04:49.289171 [debug] [MainThread]: Connection 'test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152' was left open.
+[0m01:04:49.292171 [debug] [MainThread]: On test.dbt_ShelfPulse.not_null_fct_daily_sales_revenue.f6ff847152: Close
+[0m01:04:49.499301 [debug] [MainThread]: Connection 'test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c' was left open.
+[0m01:04:49.501339 [debug] [MainThread]: On test.dbt_ShelfPulse.unique_stg_pos_sales_sale_id.4a47c3979c: Close
+[0m01:04:50.060185 [info ] [MainThread]: 
+[0m01:04:50.063595 [info ] [MainThread]: Finished running 4 data tests, 2 view models in 0 hours 0 minutes and 15.36 seconds (15.36s).
+[0m01:04:50.071388 [debug] [MainThread]: Command end result
+[0m01:04:50.256121 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_shelfpulse\target\manifest.json
+[0m01:04:50.271224 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_shelfpulse\target\semantic_manifest.json
+[0m01:04:50.286824 [debug] [MainThread]: Wrote artifact OsiDocument to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_shelfpulse\target\osi_document.json
+[0m01:04:50.345958 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\USER\OneDrive\Desktop\ShelfPulse_Retail_Sales_Pipeline\dbt_shelfpulse\target\run_results.json
+[0m01:04:50.347987 [info ] [MainThread]: 
+[0m01:04:50.350979 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m01:04:50.352993 [info ] [MainThread]: 
+[0m01:04:50.355993 [info ] [MainThread]: Done. PASS=6 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=6
+[0m01:04:50.363425 [debug] [MainThread]: Command `dbt build` succeeded at 01:04:50.362393 after 23.16 seconds
+[0m01:04:50.365451 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D389AD070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D398EA090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D398E9820>]}
+[0m01:04:50.367419 [debug] [MainThread]: Flushing usage events
+[0m01:04:52.476841 [debug] [MainThread]: An error was encountered while trying to flush usage events

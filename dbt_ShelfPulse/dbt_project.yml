@@ -1,0 +1,30 @@
+name: dbt_ShelfPulse
+version: "1.0.0"
+config-version: 2
+
+# Must match the profile name in ~/.dbt/profiles.yml
+profile: dbt_ShelfPulse
+
+model-paths: ["models"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+seed-paths: ["seeds"]
+snapshot-paths: ["snapshots"]
+analysis-paths: ["analyses"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  dbt_shelfpulse:
+    # Cleaned and typed views over RAW.POS_SALES
+    staging:
+      +materialized: view
+      +tags: ["staging"]
+
+    # Final tables for analysts and BI tools
+    marts:
+      +materialized: table
+      +tags: ["marts"]

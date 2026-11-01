@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: raw
+    database: SHELFPULSE
+    schema: RAW
+    tables:
+      - name: pos_sales
+        loaded_at_field: _loaded_at
+        freshness:
+          warn_after: {count: 26, period: hour}
