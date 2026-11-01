@@ -5,6 +5,7 @@ A simple, end-to-end daily retail sales pipeline: **Cloudflare R2 → boto3 → 
 POS systems in a (fictional) Kenyan supermarket chain export one CSV per store per day. ShelfPulse picks up the new files, loads them into Snowflake, and builds a trusted table of daily revenue by store and product category, with no manual loading.
 
 ## Architecture
+```mermaid
 graph LR
     %% Define Clean Structural Theme Styles
     classDef storage fill:#1E293B,stroke:#38BDF8,stroke-width:2px,color:#F8FAFC;
@@ -26,7 +27,7 @@ graph LR
     STAGE -->|3. Triggers bulk load| RAW
     RAW -->|4. Processes raw objects| DBT
     DBT -->|5. Materializes metrics| ANALYTICS
-
+```
 
 | Layer | What it does |
 |---|---|
