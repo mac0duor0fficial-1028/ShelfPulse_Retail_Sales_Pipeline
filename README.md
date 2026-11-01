@@ -5,54 +5,24 @@ A simple, end-to-end daily retail sales pipeline: **Cloudflare R2 → boto3 → 
 POS systems in a (fictional) Kenyan supermarket chain export one CSV per store per day. ShelfPulse picks up the new files, loads them into Snowflake, and builds a trusted table of daily revenue by store and product category, with no manual loading.
 
 ## Architecture
-
-flowchart LR
-    subgraph LANDING["☁️ LANDING"]
-        R2["<b>Cloudflare R2</b><br/>shelfpulse-landing/pos_sales/<br/><i>daily POS CSVs</i>"]
-    end
-
-    subgraph INGEST["🐍 INGESTION"]
-        PY["<b>Python Script</b> · boto3 selector<br/><i>finds files not yet loaded</i>"]
-    end
-
-    subgraph SNOW["❄️ SNOWFLAKE · LOAD"]
-        STAGE["<b>External Stage</b><br/>R2_LANDING<br/><i>points at the R2 bucket</i>"]
-        RAW["<b>RAW.POS_SALES</b><br/><i>raw text + lineage columns</i>"]
-    end
-
-    subgraph TRANSFORM["🛠️ TRANSFORMATION"]
-        DBT["<b>dbt</b><br/><i>clean · type · dedupe · aggregate · test</i>"]
-    end
-
-    subgraph SERVE["📊 SERVING"]
-        AN["<b>ANALYTICS.FCT_DAILY_SALES</b><br/><i>daily revenue by store and category</i>"]
-    end
-
-    R2 -- "list_objects_v2" --> PY
-    PY -- "COPY INTO (new files only)" --> STAGE
-    STAGE -- "load" --> RAW
-    RAW -- "source()" --> DBT
-    DBT -- "dbt build" --> AN
-
-    classDef r2 fill:#F6821F,stroke:#B85C0A,color:#ffffff,stroke-width:2px;
-    classDef py fill:#3776AB,stroke:#24506f,color:#ffffff,stroke-width:2px;
-    classDef sf fill:#29B5E8,stroke:#1585ad,color:#ffffff,stroke-width:2px;
-    classDef dbt fill:#FF694B,stroke:#c24a32,color:#ffffff,stroke-width:2px;
-    classDef out fill:#2ECC71,stroke:#1e9650,color:#ffffff,stroke-width:2px;
-
-    class R2 r2;
-    class PY py;
-    class STAGE,RAW sf;
-    class DBT dbt;
-    class AN out;
-
-    style LANDING fill:transparent,stroke:#F6821F,stroke-width:2px,stroke-dasharray:5 5
-    style INGEST fill:transparent,stroke:#3776AB,stroke-width:2px,stroke-dasharray:5 5
-    style SNOW fill:transparent,stroke:#29B5E8,stroke-width:2px,stroke-dasharray:5 5
-    style TRANSFORM fill:transparent,stroke:#FF694B,stroke-width:2px,stroke-dasharray:5 5
-    style SERVE fill:transparent,stroke:#2ECC71,stroke-width:2px,stroke-dasharray:5 5
-
-    linkStyle default stroke:#8a8f98,stroke-width:2px;
+```mermaid
+[Cloudflare R2 (Landing)]
+          │
+          ▼
+[Python Script (boto3 selector)]   finds files not yet loaded
+          │
+          ▼
+[Snowflake External Stage]         points at the R2 bucket
+          │
+          ▼
+[Snowflake RAW]                    raw text + lineage columns
+          │
+          ▼
+[dbt]                              clean, type, dedupe, aggregate, test
+          │
+          ▼
+[Snowflake ANALYTICS]              fct_daily_sales
+```
 
 | Layer | What it does |
 |---|---|
