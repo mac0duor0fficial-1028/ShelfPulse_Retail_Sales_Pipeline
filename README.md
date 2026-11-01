@@ -270,4 +270,4 @@ Or use a GitHub Actions workflow with `on: schedule: - cron: "0 5 * * *"` and st
 
 ## License
 
-This project is under the [MIT LICENSING](MIT)
+This project is under the [MIT LICENSING](LICENSE)
