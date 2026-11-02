@@ -5,29 +5,8 @@ A simple, end-to-end daily retail sales pipeline: **Cloudflare R2 → boto3 → 
 A Kenyan supermarket chain export one CSV per store per day from their POS systems. ShelfPulse picks up the new files, loads them into Snowflake, and builds a trusted table of daily revenue by store and product category, with no manual loading.
 
 ## Architecture
-```mermaid
-graph LR
-    %% Define Clean Structural Theme Styles
-    classDef storage fill:#1E293B,stroke:#38BDF8,stroke-width:2px,color:#F8FAFC;
-    classDef compute fill:#0F172A,stroke:#F43F5E,stroke-width:2px,color:#F8FAFC;
-    classDef transform fill:#0F172A,stroke:#10B981,stroke-width:2px,color:#F8FAFC;
-    classDef database fill:#1E293B,stroke:#0EA5E9,stroke-width:2px,color:#F8FAFC;
+![ShelfPulse_Retail_Sales_Pipeline](images/your-exported-diagram.svg)
 
-    %% Data Pipeline Node Elements
-    R2["Cloudflare R2<br>(Landing Zone)"]:::storage
-    PY["Python Script<br>(boto3 selector)"]:::compute
-    STAGE["Snowflake External Stage<br>(Points to R2 Bucket)"]:::database
-    RAW["Snowflake RAW<br>(Text + Lineage Columns)"]:::database
-    DBT["dbt<br>(Clean, Type, Dedupe, Aggregate, Test)"]:::transform
-    ANALYTICS["Snowflake ANALYTICS<br>(fct_daily_sales)"]:::database
-
-    %% Left-to-Right Step Flows
-    R2 -->|1. Scans for files| PY
-    PY -->|2. Finds un-loaded items| STAGE
-    STAGE -->|3. Triggers bulk load| RAW
-    RAW -->|4. Processes raw objects| DBT
-    DBT -->|5. Materializes metrics| ANALYTICS
-```
 
 | Layer | What it does |
 |---|---|
