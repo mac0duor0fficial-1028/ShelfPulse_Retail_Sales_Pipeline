@@ -5,7 +5,7 @@ A simple, end-to-end daily retail sales pipeline: **Cloudflare R2 → boto3 → 
 A Kenyan supermarket chain export one CSV per store per day from their POS systems. ShelfPulse picks up the new files, loads them into Snowflake, and builds a trusted table of daily revenue by store and product category, with no manual loading.
 
 ## Architecture
-![ShelfPulse_Retail_Sales_Pipeline](images/your-exported-diagram.svg)
+![ShelfPulse_Retail_Sales_Pipeline](docs/images/ShelfPulse-architecture.png)
 
 
 | Layer | What it does |
