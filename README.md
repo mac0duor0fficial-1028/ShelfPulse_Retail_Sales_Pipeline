@@ -2,7 +2,7 @@
 
 A simple, end-to-end daily retail sales pipeline: **Cloudflare R2 → boto3 → Snowflake → dbt**.
 
-POS systems in a (fictional) Kenyan supermarket chain export one CSV per store per day. ShelfPulse picks up the new files, loads them into Snowflake, and builds a trusted table of daily revenue by store and product category, with no manual loading.
+A Kenyan supermarket chain export one CSV per store per day from their POS systems. ShelfPulse picks up the new files, loads them into Snowflake, and builds a trusted table of daily revenue by store and product category, with no manual loading.
 
 ## Architecture
 ```mermaid
@@ -260,14 +260,6 @@ Or use a GitHub Actions workflow with `on: schedule: - cron: "0 5 * * *"` and st
 - Use a dedicated Snowflake user and role with least privilege instead of an admin login.
 - Move to key-pair authentication for the Python script beyond prototyping.
 
-## Roadmap
-
-- [ ] Archive processed files to `processed/` in R2
-- [ ] Add a `dim_stores` model
-- [ ] Add row-count tests with `dbt_expectations`
-- [ ] Orchestrate with Airflow or Dagster
-- [ ] Connect a BI dashboard (Metabase, Power BI)
-
 ## License
 
-This project is under the [MIT LICENSING](LICENSE)
+This project is open-source and licensed under the terms of the [MIT LICENSING](LICENSE).
